@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/turtlelib/rigid2d.hpp
+iosfwd
+-
+cmath
+-
+vector
+-
+
+/home/ian/test5_ws/src/slam-project-ikc8581/turtlelib/src/rigid2d.cpp
+iostream
+-
+turtlelib/rigid2d.hpp
+/home/ian/test5_ws/src/slam-project-ikc8581/turtlelib/src/turtlelib/rigid2d.hpp
+cmath
+-
+sstream
+-
+
